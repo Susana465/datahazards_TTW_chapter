@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.480">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Hazards Chapter - 3&nbsp; Case Study</title>
+<title>Data Hazards Chapter - 3&nbsp; DERR Symposium and Data Hazards Workshop Case Study</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -47,13 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -77,12 +71,12 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_info.html">chapter_info.html</a></li><li class="breadcrumb-item"><a href="./03-case_study.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Case Study</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_info.html">chapter_info.html</a></li><li class="breadcrumb-item"><a href="./03-case_study.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">DERR Symposium and Data Hazards Workshop Case Study</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -92,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Data Hazards Chapter</a> 
@@ -129,13 +123,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02-how_to_use.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How to use</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How to use the Data Hazards project</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./03-case_study.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Case Study</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">DERR Symposium and Data Hazards Workshop Case Study</span></span></a>
   </div>
 </li>
       </ul>
@@ -149,17 +143,25 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#hybrid-event-tips" id="toc-hybrid-event-tips" class="nav-link active" data-scroll-target="#hybrid-event-tips"><span class="header-section-number">3.0.1</span> Hybrid Event Tips</a></li>
+  <li><a href="#accessibility" id="toc-accessibility" class="nav-link" data-scroll-target="#accessibility"><span class="header-section-number">3.0.2</span> Accessibility</a></li>
+  <li><a href="#git-repository" id="toc-git-repository" class="nav-link" data-scroll-target="#git-repository"><span class="header-section-number">3.0.3</span> Git Repository</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_info.html">chapter_info.html</a></li><li class="breadcrumb-item"><a href="./03-case_study.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Case Study</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Case Study</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">DERR Symposium and Data Hazards Workshop Case Study</span></h1>
 </div>
 
 
@@ -172,12 +174,79 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-
 </header>
 
+<p>(sectioninitials-filename)=</p>
+<p>(sectioninitials-filename-overview)= ## Overview</p>
+<p>The Data Ethics and Reproducible Research (DERR) Symposium was a one-day event held at the Alan Turing Institute 10th March 2023. This symposium aimed to showcase implementations of reproducibility and ethics for research. The symposium structure included a variety of speakers, an interactive workshop and networking oppurtunities.</p>
+<p><em>insert picture of the event here</em></p>
+<p>A central part of this symposium was the {ref}<code>Data Hazards&lt;er-datahazards&gt;</code> Workshop to provide a collaborative training opportunity for attendees. The workshop encourages attendees to explore, discuss and reflect on the ethical implications and wider societal impact of specific data-intensive projects. It was an opportunity for attendees to appreciate that ethics is complex, situational and important to discuss in our own contexts. It aims to shine a light on an event that promotes data ethics through the content of the event, and also its planning and delivery.</p>
+<p><strong>This case study is an account of our first-hand experiences organising and hosting an event. It may be useful to you if you would like to host or organise your own accessible workshop in data ethics and reproducbility (whether a Data Hazards workshop or not).</strong></p>
+<p>For more detailed information and checklists, please see the Turing Way page for {ref}<code>Organising a Conference&lt;cl-organising-conferences&gt;</code>.</p>
+<p>(sectioninitials-filename-goals)= ### DERR Symposium Goals</p>
+<p><strong>Central Goal:</strong> to provide an open, inclusive and accessible space for attendees to learn from one another and discuss first-hand experiences applying ethics and reproducibility to their work. This aims to discuss the successes and challenges we might face, and importantly how to consider ethics as more than a tick-box exercise in a research project.</p>
+<p><strong>Goals for Event Organisers:</strong> To develop our skills in event management and organisation including: - hosting event platforms. - attendee registration. - questionaries and polls. - requesting catering. - learn about accessibility considerations and requirements. - how to: equality impact assessments.</p>
+<p>Moreover, to improve our collaborative, team working and networking skills with both volunteers and colleagues to provide a curated and thoughtful event.</p>
+<p><strong>Goals for Event Attendees:</strong> - identify areas of research projects where wider ethical implications can be considered in different research contexts. - learn through a hands-on workshop how to embed ethics and reproducibility into current work or research. - to discover what other attendees are working on in these areas.</p>
+<p>(sectioninitials-filename-organising)= ## Organising the Event Here we discuss the logistics for organising an event, from setting-up and promoting the event on an external platform to collaborating with volunteers and speakers to help successfully run the event on the day.</p>
+<p>(sectioninitials-filename-organising-agenda)= ### Create an Agenda: <!--Add links to other group working on hybrid requirements at the end of this paragraph.--> The very first step was to put together some initial ideas for the agenda. We worked together using google docs. Please find our finalised agenda <a href="https://docs.google.com/document/d/13buQgzAbTTSWVtONXC3cnjegWapJ0CBkL7TBkqNNRqU/edit">here</a>. What did this look like for us? - brainstorming themed talks, - deciding on keynote speakers - practicalities of running the <a href="https://datahazards.com/contents/materials/workshop.html">Data Hazards Workshop</a>. - identified target audience for the symposium, - when the event would start and end, including rest breaks*, - catering options - decided to run the event as hybrid (online and in-person).</p>
+<p>*To make the event more accessible in terms of able-bodied capacity, it was important for us to <strong>make sure there were enough ‘bio breaks’</strong> to allow people to stretch their bodies, use the toilet and breathe a little.</p>
+<p>(sectioninitials-filename-organising-advertising)= ### Advertise the Event</p>
+<p><strong>Choosing a date and gauging interest:</strong> We reached out to our community <em>before beginning to organise</em> the symposium to gauge interest and spread the word. This allowed us to know what other events were going on in our organisation and research field so that we could avoid clashes or busy times of the year. It also ensures you have engaged participants who have already indicated their availability.</p>
+<p><strong>Eventbrite:</strong> After finding an available date for our interested participants, we chose to advertise our event on Eventbrite. Because we were running a hybrid event, we created two event pages (one <a href="https://www.eventbrite.co.uk/e/in-person-data-hazards-ethics-and-reproducibility-one-day-symposium-tickets-516803953537">in-person</a> and one <a href="https://www.eventbrite.co.uk/e/online-data-hazards-ethics-and-reproducibility-one-day-symposium-tickets-517490858087?keep_tld=1">online-only</a>). Eventbrite worked well for us because: - it could be accessed by everyone, not just those in our organisation. - we could use it to gather participant information (clearly explaining why we were asking for the sensitive information and how the data would be handled), including accessibility information participants wanted to declare and dietary requirements.</p>
+<p>(sectioninitials-filename-organising-communication)= ### Communication We emailed the registered participants at several time-points in the run-up to the event. This aimed to: - encourage those who could no longer attend to cancel their reserved slot so that someone else could attend in their place. - provide a small nudge and reminder that the event was happening. - provide participants a Code of Conduct in advance. - provide a zoom link for online participants and directions to the location of the symposium for those attending in-person.</p>
+<p>This is what a template email could look like:</p>
+<blockquote class="blockquote">
+<p>Dear Participants, Thank you for registering for the <em>(In person) Data Hazards, Ethics and Reproducibility One-Day Symposium</em>, on the <em>10th March 2023</em>. We hope you are as excited as we are about this symposium!</p>
+<p><strong>Checking in: can you still make it?</strong> We ask you to please be considerate and kindly let us know in advance if you can no longer make it to the event. This will help us reduce waste when ordering catering as well as help with organizing room numbers. Due to the high demand of this event, we have people in a waiting list, so please do cancel your ticket in advance if you cannot make it any more, in order to allow someone else to join instead. Please cancel directly through Eventbrite or by emailing the organisers.</p>
+<p><strong>Agenda</strong>: Please find the tentative agenda here. It is mostly set up by now, please keep your eyes open for final details in the coming days. We are looking forward to showcasing these wonderful people and talks.</p>
+<p><strong>Code of Conduct</strong>: We ask all attendees to familiarize themselves with the Code of Conduct for the event (add your own link here). Please do have a read in your own time in order to allow for an open and welcoming environment among all participants.</p>
+<p><strong>How to reach the Alan Turing Institute, Enigma room</strong>: Once you arrive to the main Alan Turing Reception area, there will be someone there to greet you and guide you towards the Enigma room. Instructions on how to get to the Turing Institute can be found here.</p>
+</blockquote>
+<p>(sectioninitials-filename-organising-collaboration)= ### Collaboration: The DERR symposium had two primary organisers, however would not have been possible without the help of different collaborators. Here we discuss the steps we took to reach out to volunteers, symposium collaborators and speakers to help the event run smoothly.</p>
+<p><strong>Internal Teams</strong> We had several collaborators from within our organisation including: - the <strong>Skills Team</strong> who assisted us with: - completeing equity, diversity and inclusion assesment and data proctection forms. - understanding the financial requirements of the event, from paying speaker travel expenses to setting-up a purchase order for an event caterer. - providing grassroots funding to cover event expenses. - the <strong>Facilities Team</strong> who assisted with: - delivery of the catering on the day. - room bookings to host the event. - microphone and audio-visual set-up for the room to host the hybrid event.</p>
+<p><strong>Volunteers</strong> Volunteers were an essential part of the day, and our event would not have been successful without their help! For clear communication with volunteers, we: - <strong>provided an availability form</strong> for volunteers to fill in, indicating specific sessions or hours they could help, what they would like to do, and their own accessibility requirements. - <strong>hosted an on-boarding call</strong> to talk through the agenda and highlight the parts of the day where we would require help from volunteers. - <strong>created a dedicated volunteer’s Slack channel</strong>, so that volunteers could ask questions relating to the event, and we could easily do any problem shooting during the event.</p>
+<p>Find our volunteer form <a href="">here</a>.</p>
+<p><strong>Speakers</strong> As part of the symposium, we had to reach out to speakers for the event:</p>
+<ul>
+<li>we reached out to directly to key-note speakers whose research area or field considered data ethics and reproducibility.</li>
+<li>we invited speakers from both inside and outside our organisation to include a variety of experiences via a <a href="">speaker registration form</a>.</li>
+<li>we asked for abstracts and titles, providing potential speakers with and estimated length of talk (including time for questions) and session they would present in.</li>
+</ul>
+<p>Find our speaker form <a href="">here</a></p>
+<p>(sectioninitials-filename-organising-catering)= ### Catering For our event we choose a local, entirely vegan caterer, to align with the core values of the event. To ensure successful ordering and delivery of the catering on the day we: - estimated the number of attendees to provide catering - including volunteers, speakers and organisers. - recieved a quote from the caterers in advance and ensure we had the budget to cover the quote. - collected dietary requirements to ensure that all attendees were catered for, and ensured the catering company recieved these requirements in advance. - arranged a delivery time and location. - ensured payment to catering company as per company and organisation policies.</p>
+<p>Tip: make sure terms and conditions are read and timing requirements from different parties involved are clear from the beginning. It might be that the caterer you are ordering from requires a purchase order to be completed a certain time in order to complete the order action.</p>
+<p>(sectioninitials-filename-organising-accessibility)= ### Accessibility</p>
+<p><strong>Code of Conduct</strong> We put together a code of conduct for the event that reflected our values and the values of the community we aimed to create during the symposium. It also summarised the expectations of participants joining the symposium and laid out reporting guidlines and contact points for if the code of conduct was breached during the event.</p>
+<p>Please find our Code of Conduct <a href="https://hackmd.io/@7D_si7-qQwKdepUrj7_AzA/DER_CoC">here</a>.</p>
+<p>(sectioninitials-filename-hosting)= ## Hosting the Event Some tips for the day of the event. ### Starting the Event - Arrive at least 1h hour prior to start time to the in-person venue. To ensure the zoom link and audio-visual equipment (speakers, screens and microphones) are all working. - Open the online call early to allow for: - volunteers to settle in and open any rooms necessary. - participants to join in advance and set-up break out rooms for networking events and workshops later in the day.</p>
+<section id="hybrid-event-tips" class="level3" data-number="3.0.1">
+<h3 data-number="3.0.1" class="anchored" data-anchor-id="hybrid-event-tips"><span class="header-section-number">3.0.1</span> Hybrid Event Tips</h3>
+<p>We choose to host the Symposium in a hybrid format as this would allow attendance for those interested in the topic, and speakers, who would be unable to attend in-person. - Have session chairs, which will introduce speakers and make sure people keep to agenda timings. - Set a non-disruptive 1min warning. For example, have a 1min sign which you can rise, or type in the chat, when the time approaches. - Keep questions to the end of the talks to avoid disruptions and talks becoming longer.</p>
+</section>
+<section id="accessibility" class="level3" data-number="3.0.2">
+<h3 data-number="3.0.2" class="anchored" data-anchor-id="accessibility"><span class="header-section-number">3.0.2</span> Accessibility</h3>
+<p>There is already a chapter on <a href="https://the-turing-way.netlify.app/collaboration/organising-conference.html?highlight=accessibility">Organising Conferences</a> which includes an in-depth dive into requirements for accessibility. As well as on <a href="https://the-turing-way.netlify.app/collaboration/hybrid-collab/hybrid-collab-guidelines.html?highlight=hybrid">Organising Hybrid meetings</a>. Here, we highlight some points to ensure that the hybrid-format and the event were accessible: - collected accessibility requirements at the time of advertising, to help with planning. - used Otter.ai, a speech to text transcription application using artificial intelligence and machine learning. It shows captions for live speakers, and generates written transcriptions of the speeches. - ensured all participants in-person were using microphone when speaking. - provided regular accessibility breaks. - reminded all participants which sections of the day would be recorded. - provided a space for participants to include their name and pronouns using name labels for in-person and Zoom names online. - provided a code of conduct, and contact points for if the code of conduct was breached. - used the raised-hand function in Zoom for direct questions, but included a session chair to monitor for questions in the chat.</p>
+<p>(sectioninitials-filename-hosting-workshop)= ## Hosting a Workshop: Data Hazards<br>
+### Communication ### Collaboration <strong>Project Owners</strong> <em>insert the project owner case study here</em> ### Accesibility</p>
+<p>(sectioninitials-filename-postevent)= ## Post Event ### Feedback Forms To cover all avenues for feedback after the event we: - provided a QR code and link to the feedback form in the final session of the day and encouraged participants to complete this form. - emailed participants after the event to thank them for their attendance and share the feedback form again. - collected slides and recordings from speakers. - created an public Git repository where all content is openly avaiable for attendees and those interested in organising and hosting a similar event.</p>
+<p>Find our feedback form <a href="">here</a>.</p>
+<p>Feedback is really invaluable to ensure that future organisers can learn from previous events. In our case, this was our first symposium, so feedback from participants was really important! Here we provide some feedback we were given after the event.</p>
+<p><strong>✅ Positive Feedback:</strong> - attendees that came to the symposium with no experience of the data hazards enjoyed the interactive nature of the workshop, saying that: <em>‘the structure of the course made it very easy to follow, and the case study element was very interactive with lots of opportunities to ask questions.’</em> - attendees also enjoyed the wide applications of data ethics and reproducibility in the research space - attendees enjoyed networking over lunch, and our <a href="http://yellowkitchen.co.uk/">vegan catering</a> got lots of compliments! 🌱</p>
+<p><strong>🚦Constructive Feedback:</strong> - some attendees struggled with people joining and leaving parts of the online event, but recognised this was out of the organisers control. A consideration fur future events would be to create initiatives to encourage people to stay online for the whole day. - attendees felt that an additional industry perspective would have been beneficial.</p>
+</section>
+<section id="git-repository" class="level3" data-number="3.0.3">
+<h3 data-number="3.0.3" class="anchored" data-anchor-id="git-repository"><span class="header-section-number">3.0.3</span> Git Repository</h3>
+<p>To embody the topics of reproducibility and open science, we have shared all of our content, from forms to recordings on a public Git Repository. The aim of this is to help anyone who wants to run a workshop or symposium in the future consider all the different elements of event organisation and hosting.</p>
+<p>Find our full Git Repository, including recordings of speakers, code of conduct, and forms <a href="https://github.com/Susana465/der_symposium_20230310">here</a>.</p>
+<p>(sectioninitials-filename-challenges)= ## Challenges As this was the first event (on this scale!) that we had organised, there were several challenges that popped up throughout the process.</p>
+<p>The primary challenge was understanding the number of hours required to organise an event. For our one day event, it took over 50 hours of organisational time, from form writing, code of conduct, creating the event page, advertisement, organising catering and so on. Particularly if this is the first time you are organising an event in a new context, either as an organisation or on that research topic, there won’t be clear expectations or guidelines to follow. This means different tasks can take longer than expected to complete. So we would really recommend that you have a large organising commitee of passionate people that can also recognise the boundaries and constraints of the event type and work within them. This also taught us that organising an event will <strong>always</strong> take longer than you expect, so plan accordingly!</p>
+<p>(sectioninitials-filename-reflections)= ## Reflections</p>
+<p>Upon reflections after the event, we reflected that it is important to understand your organisations guidelines and frameworks for hosting events, what support they can offer you, and reach out to ask for help where you need it. The importance of collaboration in successful event organisation cannot be understated here. This is an important value in the Turing Way, with a {ref}<code>Guide for Collaboration&lt;cl-collaboration&gt;</code>providing insights in how to collaborate remotely, running open source projects and organising events.</p>
+<p>We also recognise the importance of {ref}<code>self reflection&lt;er-self-reflection&gt;</code> throughout the process of organising an event, and how our lived experiences give us a particular lens on how we view the world. So ensuring you collaborate with others, take on different points of view that will ensure a responsible, inclusive, fair and ultimately ethical event!</p>
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -259,9 +328,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -271,17 +341,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -294,128 +355,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
-        }
-        typesetMath(container);
-        return container.innerHTML
-      } else {
-        typesetMath(note);
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      typesetMath(note);
-      return note.innerHTML;
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -459,7 +398,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -485,32 +423,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -572,18 +484,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./02-how_to_use.html" class="pagination-link  aria-label=" &lt;span="" to="" use&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How to use</span></span>
+      <a href="./02-how_to_use.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How to use the Data Hazards project</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
+      <a href="./references.html" class="pagination-link">
         <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 
