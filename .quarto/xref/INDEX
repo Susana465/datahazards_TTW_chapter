@@ -1,0 +1,20 @@
+{
+  "index.qmd": {
+    "index.html": "53bb8616"
+  },
+  "chapter_info.md": {
+    "chapter_info.html": "22de01fa"
+  },
+  "01-intro.md": {
+    "01-intro.html": "013618e0"
+  },
+  "02-how_to_use.md": {
+    "02-how_to_use.html": "295d9b0f"
+  },
+  "03-case_study.md": {
+    "03-case_study.html": "398278da"
+  },
+  "references.qmd": {
+    "references.html": "beab9221"
+  }
+}

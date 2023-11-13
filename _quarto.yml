@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Data Hazards Chapter"
+  author: "Susana Roman Garcia, Ceilidh Welsh, Natalie Zelenka, need to add Irma"
+  date: now
+  chapters:
+    - index.qmd
+    - part: chapter_info.md
+      chapters:
+      - 01-intro.md
+      - 02-how_to_use.md
+      - 03-case_study.md
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
