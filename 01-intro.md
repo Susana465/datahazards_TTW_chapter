@@ -9,9 +9,7 @@ They exist to facilitate interdisciplinary discussions and self-reflection about
 Ultimately, the project aims to help data practitioners to identify and mitigate these risks.
 You can watch a short animation explaining the project below:
 
-<div style="text-align: center">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/26fNnar4JvY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+[INSERT VIDEO HERE]
 
 In this section, we explain the nature of the project.
 Feel free to skip ahead to the next section for more practical guidance on {ref}`how to use the Data Hazards<(er-datahazardshowtouse>` in your data-intensive work. 
@@ -30,7 +28,8 @@ Each label has:
 ### Example label: high environmental cost
 > [name=Alejandro ©] very interested to mention or crossreference this in the WIP chapter on The Environmental Impact of Digital Research, https://github.com/alan-turing-institute/the-turing-way/pull/3117
 ---
-<center><img src="https://datahazards.com/_images/environment.png"  width="250" height=""></center>
+
+[IMAGE GOES HERE]
 
 #### Description
 This hazard is appropriate where methodologies are energy-hungry, data-hungry (requiring more and more computation), or require special hardware that require rare materials.

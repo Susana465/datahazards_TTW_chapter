@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Hazards Chapter - 1&nbsp; Introduction</title>
+<title>Data Hazards Chapter - 2&nbsp; Introduction to Data Hazards Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -100,7 +80,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_info.html">chapter_info.html</a></li><li class="breadcrumb-item"><a href="./01-intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_info.html">chapter_info.html</a></li><li class="breadcrumb-item"><a href="./01-intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Data Hazards Project</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -128,7 +108,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Landing Page</span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Data Hazards</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -143,19 +123,19 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./01-intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Data Hazards Project</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02-how_to_use.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How to use</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">How to use</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./03-case_study.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Case Study</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Case Study</span></span></a>
   </div>
 </li>
       </ul>
@@ -172,14 +152,29 @@ div.csl-indent {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#data-hazards-labels" id="toc-data-hazards-labels" class="nav-link active" data-scroll-target="#data-hazards-labels"><span class="header-section-number">2.1</span> Data Hazards labels</a>
+  <ul class="collapse">
+  <li><a href="#what-do-they-look-like-anatomy-of-a-data-hazards-label" id="toc-what-do-they-look-like-anatomy-of-a-data-hazards-label" class="nav-link" data-scroll-target="#what-do-they-look-like-anatomy-of-a-data-hazards-label"><span class="header-section-number">2.1.1</span> What do they look like? Anatomy of a Data Hazards label</a></li>
+  <li><a href="#example-label-high-environmental-cost" id="toc-example-label-high-environmental-cost" class="nav-link" data-scroll-target="#example-label-high-environmental-cost"><span class="header-section-number">2.1.2</span> Example label: high environmental cost</a></li>
+  <li><a href="#similarities-and-differences-to-chemical-hazard-labels" id="toc-similarities-and-differences-to-chemical-hazard-labels" class="nav-link" data-scroll-target="#similarities-and-differences-to-chemical-hazard-labels"><span class="header-section-number">2.1.3</span> Similarities and differences to chemical hazard labels</a></li>
+  <li><a href="#where-did-they-come-from" id="toc-where-did-they-come-from" class="nav-link" data-scroll-target="#where-did-they-come-from"><span class="header-section-number">2.1.4</span> Where did they come from?</a></li>
+  <li><a href="#the-hazard-labels-are-versioned" id="toc-the-hazard-labels-are-versioned" class="nav-link" data-scroll-target="#the-hazard-labels-are-versioned"><span class="header-section-number">2.1.5</span> The Hazard labels are versioned</a></li>
+  </ul></li>
+  <li><a href="#application-example-into-research-life-cycle" id="toc-application-example-into-research-life-cycle" class="nav-link" data-scroll-target="#application-example-into-research-life-cycle"><span class="header-section-number">2.2</span> Application example into Research life-cycle</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">2.3</span> Glossary</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_info.html">chapter_info.html</a></li><li class="breadcrumb-item"><a href="./01-intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_info.html">chapter_info.html</a></li><li class="breadcrumb-item"><a href="./01-intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Data Hazards Project</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Data Hazards Project</span></h1>
 </div>
 
 
@@ -196,15 +191,101 @@ div.csl-indent {
 </header>
 
 
-<p>This is a book created from markdown and executable code.</p>
-<p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
+<p>(er-datahazardsintro)= <!--`data-hazards-intro.md` --></p>
+<p>Data Hazards is a community project to develop a shared vocabulary of data science risks (in the form of Data Hazard labels) and materials to help data practitioners use them.</p>
+<p>These labels and materials are provided CC-BY licensed on the <a href="https://datahazards.com">Data Hazards website</a>. They exist to facilitate interdisciplinary discussions and self-reflection about all kinds of data ethics risks. Ultimately, the project aims to help data practitioners to identify and mitigate these risks. You can watch a short animation explaining the project below:</p>
+<p>[INSERT VIDEO HERE]</p>
+<p>In this section, we explain the nature of the project. Feel free to skip ahead to the next section for more practical guidance on {ref}<code>how to use the Data Hazards&lt;(er-datahazardshowtouse&gt;</code> in your data-intensive work.</p>
+<section id="data-hazards-labels" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="data-hazards-labels"><span class="header-section-number">2.1</span> Data Hazards labels</h2>
+<section id="what-do-they-look-like-anatomy-of-a-data-hazards-label" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="what-do-they-look-like-anatomy-of-a-data-hazards-label"><span class="header-section-number">2.1.1</span> What do they look like? Anatomy of a Data Hazards label</h3>
+<p>Each label has:</p>
+<ul>
+<li><strong>Hazard image</strong>, title, and description which represents and describes the risk.</li>
+<li><strong>Examples</strong> to clarify what the hazard covers.</li>
+<li><strong>Safety Precautions</strong> - things that we would want to see done before the research is deployed.</li>
+</ul>
+</section>
+<section id="example-label-high-environmental-cost" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="example-label-high-environmental-cost"><span class="header-section-number">2.1.2</span> Example label: high environmental cost</h3>
+<blockquote class="blockquote">
+<p>[name=Alejandro ©] very interested to mention or crossreference this in the WIP chapter on The Environmental Impact of Digital Research, https://github.com/alan-turing-institute/the-turing-way/pull/3117</p>
+</blockquote>
+<hr>
+<p>[IMAGE GOES HERE]</p>
+<section id="description" class="level4" data-number="2.1.2.1">
+<h4 data-number="2.1.2.1" class="anchored" data-anchor-id="description"><span class="header-section-number">2.1.2.1</span> Description</h4>
+<p>This hazard is appropriate where methodologies are energy-hungry, data-hungry (requiring more and more computation), or require special hardware that require rare materials.</p>
+</section>
+<section id="examples" class="level4" data-number="2.1.2.2">
+<h4 data-number="2.1.2.2" class="anchored" data-anchor-id="examples"><span class="header-section-number">2.1.2.2</span> Examples</h4>
+<ul>
+<li>Example 1: Cryptocurrency requires vast energy usage.</li>
+<li>Example 2: Language models require larger and larger datasets.</li>
+</ul>
+</section>
+<section id="safety-precautions" class="level4" data-number="2.1.2.3">
+<h4 data-number="2.1.2.3" class="anchored" data-anchor-id="safety-precautions"><span class="header-section-number">2.1.2.3</span> Safety Precautions</h4>
+<ul>
+<li>Consider in what circumstances it is worthwhile to use this type of methodology.
+<ul>
+<li>To communicate the scale of the issue to other stakeholders, you may want to <a href="">convert units of energy into more relatable units</a>.</li>
+<li>Find out <a href="">if your cloud provider uses renewable energy</a>.</li>
+<li>Consider profiling your code, and rewriting it to use less energy.</li>
+</ul></li>
+<li>Consider future work that would reduce the need to use increasingly more resources.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="similarities-and-differences-to-chemical-hazard-labels" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="similarities-and-differences-to-chemical-hazard-labels"><span class="header-section-number">2.1.3</span> Similarities and differences to chemical hazard labels</h3>
+<!--The Data Hazards labels look like chemical hazard labels on purpose...-->
+</section>
+<section id="where-did-they-come-from" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="where-did-they-come-from"><span class="header-section-number">2.1.4</span> Where did they come from?</h3>
+<p>There were originally six labels, which were identified through reading data ethics papers at <a href="http://dataethicsclub.com">Data Ethics Club</a>: a fortnightly journal club for data science and ethics. Through collecting suggestions <a href="">on GitHub</a>, and at conferences and Data Hazards workshops, further labels were suggested and added until we reached the current 11 labels.</p>
+</section>
+<section id="the-hazard-labels-are-versioned" class="level3" data-number="2.1.5">
+<h3 data-number="2.1.5" class="anchored" data-anchor-id="the-hazard-labels-are-versioned"><span class="header-section-number">2.1.5</span> The Hazard labels are versioned</h3>
+<!--The Hazard labels are versioned!-->
+<p>The Data Hazard labels are a living project and will continue to change as we gather more suggestions - for this reason they are versioned using semantic versioning. At the time of writing, in <code>v1.0</code>, there are 11 Data Hazard labels: you can <a href="https://datahazards.com/labels">explore the Data Hazard labels yourself</a> on the Data Hazards website.</p>
+</section>
+</section>
+<section id="application-example-into-research-life-cycle" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="application-example-into-research-life-cycle"><span class="header-section-number">2.2</span> Application example into Research life-cycle</h2>
+<p>To help visualize where and when Data Hazards can be used in your workflow, below we use an example assuming four main stages of workflow: design, data collection, data analysis and reporting.</p>
+<section id="design" class="level4" data-number="2.2.0.1">
+<h4 data-number="2.2.0.1" class="anchored" data-anchor-id="design"><span class="header-section-number">2.2.0.1</span> Design:</h4>
+<ul>
+<li>Are you using data? Then doing some reflection on <a href="https://the-turing-way.netlify.app/ethical-research/self-reflection/sr-positionality.html?highlight=bias">identity and positionality</a> could help you think of what Data Hazards labels you might encounter as you design your project, for example <a href="https://datahazards.com/contents/hazards/ranks-classifies.html">“ranks of classifies people hazard”</a> or <a href="https://datahazards.com/contents/hazards/risk-to-privacy.html">“risk to privacy”</a> could apply at this stage.</li>
+<li>In this part of the workflow, you might want to prepare to avoid certain Data Hazards if you can, and if you can’t avoid them because of where your data has come from, you may want to acknowledge this. For example, if you a <a href="https://the-turing-way.netlify.app/project-design/sdp.html">sensitive data project</a>, what Data Hazard labels will apply, and/or what can you do to design your project in a way that avoids certain harms?</li>
+</ul>
+</section>
+<section id="data-collection-and-analysis" class="level4" data-number="2.2.0.2">
+<h4 data-number="2.2.0.2" class="anchored" data-anchor-id="data-collection-and-analysis"><span class="header-section-number">2.2.0.2</span> Data Collection and Analysis:</h4>
+<ul>
+<li>As you are collecting and analyzing your data, you might want to iteratively think of the potential Data Hazards that exist in the information you are collecting. To then apply the labels as you perform the next step of the process: reporting.</li>
+</ul>
+</section>
+<section id="reporting" class="level4" data-number="2.2.0.3">
+<h4 data-number="2.2.0.3" class="anchored" data-anchor-id="reporting"><span class="header-section-number">2.2.0.3</span> Reporting:</h4>
+<ul>
+<li>When reporting your results, you can think of applying and reporting the Data Hazard labels that are relevant for your project; examples of how others have done this can be found here [link to self reflection and case studie(s)]. Labeling your project with Data Hazards should also include considerations of mitigations to these risks. This would then be helpful for people who see your outputs in the future. They can be aware of potential risks as they proceed with the project, and continue to think of solutions to any issues related to the research topic.</li>
+</ul>
+</section>
+</section>
+<section id="glossary" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="glossary"><span class="header-section-number">2.3</span> Glossary</h2>
+<ul>
+<li>risk:</li>
+<li>hazard:</li>
+<li>danger:</li>
+</ul>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
-</div>
-</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -604,8 +685,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./02-how_to_use.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>How to use</span>">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How to use</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./02-how_to_use.html" class="pagination-link" aria-label="<span class='chapter-number'>3</span>&nbsp; <span class='chapter-title'>How to use</span>">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">How to use</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

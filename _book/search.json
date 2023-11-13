@@ -12,12 +12,12 @@
   {
     "objectID": "01-intro.html",
     "href": "01-intro.html",
-    "title": "1  Introduction",
+    "title": "2  Introduction to Data Hazards Project",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "(er-datahazardsintro)= \nData Hazards is a community project to develop a shared vocabulary of data science risks (in the form of Data Hazard labels) and materials to help data practitioners use them.\nThese labels and materials are provided CC-BY licensed on the Data Hazards website. They exist to facilitate interdisciplinary discussions and self-reflection about all kinds of data ethics risks. Ultimately, the project aims to help data practitioners to identify and mitigate these risks. You can watch a short animation explaining the project below:",
     "crumbs": [
       "chapter_info.html",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
@@ -39,6 +39,39 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "01-intro.html#data-hazards-labels",
+    "href": "01-intro.html#data-hazards-labels",
+    "title": "2  Introduction to Data Hazards Project",
+    "section": "2.1 Data Hazards labels",
+    "text": "2.1 Data Hazards labels\n\n2.1.1 What do they look like? Anatomy of a Data Hazards label\nEach label has:\n\nHazard image, title, and description which represents and describes the risk.\nExamples to clarify what the hazard covers.\nSafety Precautions - things that we would want to see done before the research is deployed.\n\n\n\n2.1.2 Example label: high environmental cost\n\n[name=Alejandro ©] very interested to mention or crossreference this in the WIP chapter on The Environmental Impact of Digital Research, https://github.com/alan-turing-institute/the-turing-way/pull/3117\n\n\n[IMAGE GOES HERE]\n\n2.1.2.1 Description\nThis hazard is appropriate where methodologies are energy-hungry, data-hungry (requiring more and more computation), or require special hardware that require rare materials.\n\n\n2.1.2.2 Examples\n\nExample 1: Cryptocurrency requires vast energy usage.\nExample 2: Language models require larger and larger datasets.\n\n\n\n2.1.2.3 Safety Precautions\n\nConsider in what circumstances it is worthwhile to use this type of methodology.\n\nTo communicate the scale of the issue to other stakeholders, you may want to convert units of energy into more relatable units.\nFind out if your cloud provider uses renewable energy.\nConsider profiling your code, and rewriting it to use less energy.\n\nConsider future work that would reduce the need to use increasingly more resources.\n\n\n\n\n\n2.1.3 Similarities and differences to chemical hazard labels\n\n\n\n2.1.4 Where did they come from?\nThere were originally six labels, which were identified through reading data ethics papers at Data Ethics Club: a fortnightly journal club for data science and ethics. Through collecting suggestions on GitHub, and at conferences and Data Hazards workshops, further labels were suggested and added until we reached the current 11 labels.\n\n\n2.1.5 The Hazard labels are versioned\n\nThe Data Hazard labels are a living project and will continue to change as we gather more suggestions - for this reason they are versioned using semantic versioning. At the time of writing, in v1.0, there are 11 Data Hazard labels: you can explore the Data Hazard labels yourself on the Data Hazards website.",
+    "crumbs": [
+      "chapter_info.html",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Data Hazards Project</span>"
+    ]
+  },
+  {
+    "objectID": "01-intro.html#application-example-into-research-life-cycle",
+    "href": "01-intro.html#application-example-into-research-life-cycle",
+    "title": "2  Introduction to Data Hazards Project",
+    "section": "2.2 Application example into Research life-cycle",
+    "text": "2.2 Application example into Research life-cycle\nTo help visualize where and when Data Hazards can be used in your workflow, below we use an example assuming four main stages of workflow: design, data collection, data analysis and reporting.\n\n2.2.0.1 Design:\n\nAre you using data? Then doing some reflection on identity and positionality could help you think of what Data Hazards labels you might encounter as you design your project, for example “ranks of classifies people hazard” or “risk to privacy” could apply at this stage.\nIn this part of the workflow, you might want to prepare to avoid certain Data Hazards if you can, and if you can’t avoid them because of where your data has come from, you may want to acknowledge this. For example, if you a sensitive data project, what Data Hazard labels will apply, and/or what can you do to design your project in a way that avoids certain harms?\n\n\n\n2.2.0.2 Data Collection and Analysis:\n\nAs you are collecting and analyzing your data, you might want to iteratively think of the potential Data Hazards that exist in the information you are collecting. To then apply the labels as you perform the next step of the process: reporting.\n\n\n\n2.2.0.3 Reporting:\n\nWhen reporting your results, you can think of applying and reporting the Data Hazard labels that are relevant for your project; examples of how others have done this can be found here [link to self reflection and case studie(s)]. Labeling your project with Data Hazards should also include considerations of mitigations to these risks. This would then be helpful for people who see your outputs in the future. They can be aware of potential risks as they proceed with the project, and continue to think of solutions to any issues related to the research topic.",
+    "crumbs": [
+      "chapter_info.html",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Data Hazards Project</span>"
+    ]
+  },
+  {
+    "objectID": "01-intro.html#glossary",
+    "href": "01-intro.html#glossary",
+    "title": "2  Introduction to Data Hazards Project",
+    "section": "2.3 Glossary",
+    "text": "2.3 Glossary\n\nrisk:\nhazard:\ndanger:",
+    "crumbs": [
+      "chapter_info.html",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Data Hazards Project</span>"
     ]
   }
 ]
