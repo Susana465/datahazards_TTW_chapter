@@ -1,7 +1,2 @@
 # Landing Page {.unnumbered}
-
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
 This is the hackmd we worked on the May Book dash: https://hackmd.io/ZoJpaBsnTBuAfwGWnMCwGg?view 
