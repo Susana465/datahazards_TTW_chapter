@@ -1,9 +1,8 @@
 (er-datahazardsintro)=
 # Introduction to Data Hazards Project
-<!--`data-hazards-intro.md` -->
 
 Data Hazards is a community project to develop a shared vocabulary of data science risks (in the form of Data Hazard labels) and materials to help data practitioners use them.
-
+e
 These labels and materials are provided CC-BY licensed on the [Data Hazards website](https://datahazards.com).
 They exist to facilitate interdisciplinary discussions and self-reflection about all kinds of data ethics risks. 
 Ultimately, the project aims to help data practitioners to identify and mitigate these risks.
