@@ -16,30 +16,30 @@ Feel free to skip ahead to the next section for more practical guidance on {ref}
 
 ### What do they look like? Anatomy of a Data Hazards label
 
-Each label has: 
+Each label has, as described in the main website: 
 
 - **Hazard image**, title, and description which represents and describes the risk.
 - **Examples** to clarify what the hazard covers.
-- **Safety Precautions** - things that we would want to see done before the research is deployed.
+- **Safety Precautions** things that we would want to see done before the research is deployed.
 
 ### Example label: high environmental cost
 
 [IMAGE GOES HERE]
 
 #### Description
-This hazard is appropriate where methodologies are energy-hungry, data-hungry (requiring more and more computation), or require special hardware that require rare materials.
+This hazard is appropriate where methodologies are energy-hungry, data-hungry (requiring more and more computation), or require special hardware that require rare materials. Alternatively, this could also apply to research which outputs high amounts of waste.
 
 #### Examples
- - Example 1: Cryptocurrency requires vast energy usage.
- - Example 2: Language models require larger and larger datasets.
+ - Example 1: Wet-lab experiments which create large amounts of single-use plastic waste, for example pipette tips or petri dishes; or specific chemicals that are harmful to the environment {cite:ps}`Freeland2022`, {cite:ps}`Leak2023`. 
+ 
+ - Example 2: Running big models on High Performance Clusters can have a big environmental impact with the energy they consume {cite:ps}`alaparthi2020bidirectional`, {cite:ps}`Bender2021`.
 
 #### Safety Precautions
- - Consider in what circumstances it is worthwhile to use this type of methodology.
-   - To communicate the scale of the issue to other stakeholders, you may want to [convert units of energy into more relatable units]().
-   - Find out [if your cloud provider uses renewable energy]().
-   - Consider profiling your code, and rewriting it to use less energy.
-   
-- Consider future work that would reduce the need to use increasingly more resources.
+ - Consider recycling programmes, as well as reducing purchasing and shipping. 
+   - To communicate the scale of the issue to other stakeholders, you may want to [convert units of energy into more relatable units](https://calculator.green-algorithms.org/).
+   - Find out if your cloud provider uses renewable energy.
+   - Consider profiling your code, and rewriting it to use less energy. 
+   - Consider future work that would reduce the need to use increasingly more resources.
 
 ---
 
