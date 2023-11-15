@@ -1,75 +1,68 @@
-(sectioninitials-filename)=
-# DERR Symposium and Data Hazards Workshop Case Study
+(er-datahazardscasestudy)=
+# Case Study: DERR Symposium and Data Hazards Workshop 
 
-(sectioninitials-filename-overview)=
+(er-datahazardscasestudy-overview)=
 ## Overview 
 
 The Data Ethics and Reproducible Research (DERR) Symposium was a one-day event held at the Alan Turing Institute 10th March 2023. 
 This symposium aimed to showcase implementations of reproducibility and ethics for research.
 The symposium structure included a variety of speakers, an interactive workshop and networking oppurtunities. 
 
-*insert picture of the event here*
-
-
 A central part of this symposium was the {ref}`Data Hazards<er-datahazards>` Workshop to provide a collaborative training opportunity for attendees.
 The workshop encourages attendees to explore, discuss and reflect on the ethical implications and wider societal impact of specific data-intensive projects. 
 It was an opportunity for attendees to appreciate that ethics is complex, situational and important to discuss in our own contexts.
-It aims to shine a light on an event that promotes data ethics through the content of the event, and also its planning and delivery. 
+It aimed to shine a light on an event that promotes data ethics through the content of the event, and also its planning and delivery. 
 
 **This case study is an account of our first-hand experiences organising and hosting an event. It may be useful to you if you would like to host or organise your own accessible workshop in data ethics and reproducbility (whether a Data Hazards workshop or not).** 
 
 For more detailed information and checklists, please see the Turing Way page for {ref}`Organising a Conference<cl-organising-conferences>`.
 
-(sectioninitials-filename-goals)=
+(er-datahazardscasestudy-goals)=
 ### DERR Symposium Goals
 
-**Central Goal:** to provide an open, inclusive and accessible space for attendees to learn from one another and discuss first-hand experiences applying ethics and reproducibility to their work. 
+**Primary Goal:** to provide an open, inclusive and accessible space for attendees to learn from one another and discuss first-hand experiences applying ethics and reproducibility to their work. 
 This aims to discuss the successes and challenges we might face, and importantly how to consider ethics as more than a tick-box exercise in a research project.
 
 **Goals for Event Organisers:** 
 To develop our skills in event management and organisation including:
--  hosting event platforms.
--  attendee registration.
+-  hosting event platforms for attendee registration.
 -  questionaries and polls.
--  requesting catering.
 -  learn about accessibility considerations and requirements.
--  how to: equality impact assessments. 
+-  equality impact assessments. 
 
-Moreover, to improve our collaborative, team working and networking skills with both volunteers and colleagues to provide a curated and thoughtful event.
+Importantly, we wanted to improve our collaborative, team working and networking skills with both volunteers and colleagues to provide a curated and thoughtful event.
 
 **Goals for Event Attendees:** 
-- identify areas of research projects where wider ethical implications can be considered in different research contexts.
-- learn through a hands-on workshop how to embed ethics and reproducibility into current work or research.
-- to discover what other attendees are working on in these areas.
+- Identify areas of research projects where wider ethical implications can be considered in different research contexts.
+- Learn through a hands-on workshop how to embed ethics and reproducibility into current work or research.
+- Discover what other attendees are working on in these areas.
 
-(sectioninitials-filename-organising)=
+(er-datahazardscasestudy-organising)=
 ## Organising the Event
 Here we discuss the logistics for organising an event, from setting-up and promoting the event on an external platform to collaborating with volunteers and speakers to help successfully run the event on the day. 
 
-(sectioninitials-filename-organising-agenda)=
-### Create an Agenda:
-<!--Add links to other group working on hybrid requirements at the end of this paragraph.-->
-The very first step was to put together some initial ideas for the agenda.
+(er-datahazardscasestudy-organising-agenda)=
+### Creating an Agenda:
+The first step was to put together some initial ideas for the agenda.
 We worked together using google docs. 
 Please find our finalised agenda [here](https://docs.google.com/document/d/13buQgzAbTTSWVtONXC3cnjegWapJ0CBkL7TBkqNNRqU/edit).
-What did this look like for us?
- - brainstorming themed talks, 
- - deciding on keynote speakers 
- - practicalities of running the [Data Hazards Workshop](https://datahazards.com/contents/materials/workshop.html).
- - identified target audience for the symposium, 
- - when the event would start and end, including rest breaks*, 
- - catering options
- - decided to run the event as hybrid (online and in-person).
+What did this process look like for us?
+ - brainstorming themed talks,
+ - deciding on keynote speakers, 
+ - practicalities of running the [Data Hazards Workshop](https://datahazards.com/contents/materials/workshop.html),
+ - identifying the symposium target audience, 
+ - planning the event start and endtimes, including rest breaks*, 
+ - catering options,
+ - deciding whether to run a hybrid event (online and in-person). Guidelines for hybrid collaboration and events can be found [here](https://the-turing-way.netlify.app/collaboration/hybrid-collab).
  
-*To make the event more accessible in terms of able-bodied capacity, it was important for us to **make sure there were enough 'bio breaks'** to allow people to stretch their bodies, use the toilet and breathe a little.
+*To make the event more accessible, it was important for us to **make sure there were enough 'bio breaks'** to allow people to stretch their bodies, use the toilet and take a breather.
 
 (sectioninitials-filename-organising-advertising)=
-### Advertise the Event
+### Advertising the Event
 
 **Choosing a date and gauging interest:** 
 We reached out to our community *before beginning to organise* the symposium to gauge interest and spread the word. 
 This allowed us to know what other events were going on in our organisation and research field so that we could avoid clashes or busy times of the year.
-It also ensures you have engaged participants who have already indicated their availability. 
 
 **Eventbrite:** 
 After finding an available date for our interested participants, we chose to advertise our event on Eventbrite. 
@@ -78,7 +71,7 @@ Eventbrite worked well for us because:
 - it could be accessed by everyone, not just those in our organisation. 
 - we could use it to gather participant information (clearly explaining why we were asking for the sensitive information and how the data would be handled), including accessibility information participants wanted to declare and dietary requirements.
 
-(sectioninitials-filename-organising-communication)=
+(er-datahazardscasestudy-organising-communication)=
 ### Communication 
 We emailed the registered participants at several time-points in the run-up to the event. This aimed to:
 - encourage those who could no longer attend to cancel their reserved slot so that someone else could attend in their place. 

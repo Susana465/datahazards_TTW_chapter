@@ -75,8 +75,10 @@ To help visualize where and when Data Hazards can be used in your workflow, belo
 #### Reporting:
  - When reporting your results, you can think of applying and reporting the Data Hazard labels that are relevant for your project; examples of how others have done this can be found here [link to self reflection and case studie(s)]. Labeling your project with Data Hazards should also include considerations of mitigations to these risks. This would then be helpful for people who see your outputs in the future. They can be aware of potential risks as they proceed with the project, and continue to think of solutions to any issues related to the research topic.
 
+## Ethical Frameworks 
 
 
+<!--- remove glossary if there is not enough time to complete---->
 ## Glossary
 
 - risk:
