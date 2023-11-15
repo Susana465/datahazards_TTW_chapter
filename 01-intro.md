@@ -2,7 +2,7 @@
 # Introduction to Data Hazards Project
 
 Data Hazards is a community project to develop a shared vocabulary of data science risks (in the form of Data Hazard labels) and materials to help data practitioners use them.
-e
+
 These labels and materials are provided CC-BY licensed on the [Data Hazards website](https://datahazards.com).
 They exist to facilitate interdisciplinary discussions and self-reflection about all kinds of data ethics risks. 
 Ultimately, the project aims to help data practitioners to identify and mitigate these risks.
@@ -10,11 +10,9 @@ You can watch a short animation explaining the project below:
 
 [INSERT VIDEO HERE]
 
+## Data Hazards labels
 In this section, we explain the nature of the project.
 Feel free to skip ahead to the next section for more practical guidance on {ref}`how to use the Data Hazards<(er-datahazardshowtouse>` in your data-intensive work. 
-
-## Data Hazards labels
-
 
 ### What do they look like? Anatomy of a Data Hazards label
 
@@ -25,8 +23,6 @@ Each label has:
 - **Safety Precautions** - things that we would want to see done before the research is deployed.
 
 ### Example label: high environmental cost
-> [name=Alejandro ©] very interested to mention or crossreference this in the WIP chapter on The Environmental Impact of Digital Research, https://github.com/alan-turing-institute/the-turing-way/pull/3117
----
 
 [IMAGE GOES HERE]
 

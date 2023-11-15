@@ -89,6 +89,7 @@ The Data Hazards website has some suggestions and templates on [how to present t
 ). 
 
 (er-datahazardshowtouse-contribute)=
+
 ## **Contributing** to Data Hazards materials {-}
 
 Additionally to the steps stated above, the Data Hazard labels are a collaborative effort to create a shared vocabulary that evolves with time. 
