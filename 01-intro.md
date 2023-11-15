@@ -56,6 +56,7 @@ Through collecting suggestions [on GitHub](), and at conferences and Data Hazard
 The Data Hazard labels are a living project and will continue to change as we gather more suggestions - for this reason they are versioned using semantic versioning.
 At the time of writing, in `v1.0`, there are 11 Data Hazard labels: you can [explore the Data Hazard labels yourself](https://datahazards.com/labels) on the Data Hazards website.
 
+<!-- maybe this should be its own subchapter -->
 ## Application example into Research life-cycle
 To help visualize where and when Data Hazards can be used in your workflow, below we use an example assuming four main stages of workflow: design, data collection, data analysis and reporting.
 
