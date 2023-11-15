@@ -66,7 +66,9 @@ However, much of our research builds on itself, so researchers have also found [
 
 Read {ref}`the PhD research life-cycle case study<>` for an example of how applying, reflecting, and displaying labels can fit into a research life-cycle.
 
-## **3. Reflecting** on the Data Hazard labels {-}
+(er-datahazardshowtouse-precautions)=
+
+## **3. Reflecting** on Safety Precautions {-}
 <!--What it means to reflect on the labels-->
 A key part of the Data Hazards framework is to reflect on what to do differently and what mitigations to make or suggest for future work. 
 
@@ -77,6 +79,8 @@ Likewise, reflecting on the history of where your work has come from may shed li
 Thinking about mitigations means that you suggest ways to prevent risks associated with your work, and if no prevention is possible at present, how to avoid it in the future. 
 The point of this is not to think of *all* the possible scenarios on how your work carries or can carry risks,and of *all* possible mitigation measures; but to reflect, acknowledge and promote an awareness about ethical implications of the work that we do.  
 
+(er-datahazardshowtouse-display)=
+
 ## **4. Displaying** the Data Hazard labels {-}
 
 In order to show case your reflections and how you have applied the labels, displaying them can help people visualise their importance in your work.
@@ -84,20 +88,9 @@ In order to show case your reflections and how you have applied the labels, disp
 The Data Hazards website has some suggestions and templates on [how to present the labels](https://datahazards.com/contents/materials/presenting.html
 ). 
 
-### How: Workshop
-<!--link to Euan's case study-->
+<!--Would like to add in the future link to Euan's case study-->
 Applying labels through a collaborative and interdisciplinary discussion can give project owners perspectives they might not otherwise consider.
 
-
-
-### How: Self reflection
-<!-- link to checklist-->
-
-(er-datahazardshowtouse-precautions)=
-## **3. Reflecting** on Safety Precautions
-
-(er-datahazardshowtouse-display)=
-## **4. Displaying** the labels
 
 (er-datahazardshowtouse-contribute)=
 ## **Contributing** to Data Hazards materials
