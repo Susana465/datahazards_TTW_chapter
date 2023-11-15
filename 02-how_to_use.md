@@ -88,13 +88,14 @@ In order to show case your reflections and how you have applied the labels, disp
 The Data Hazards website has some suggestions and templates on [how to present the labels](https://datahazards.com/contents/materials/presenting.html
 ). 
 
-<!--Would like to add in the future link to Euan's case study-->
-Applying labels through a collaborative and interdisciplinary discussion can give project owners perspectives they might not otherwise consider.
-
-
 (er-datahazardshowtouse-contribute)=
-## **Contributing** to Data Hazards materials
+## **Contributing** to Data Hazards materials {-}
 
+Additionally to the steps stated above, the Data Hazard labels are a collaborative effort to create a shared vocabulary that evolves with time. 
+If you throughout your process of reflection and applying the labels you find that there are labels missing, you can suggest a new one yourself.
+Guidelines on how to contribute are laid out in the [contribution section] of the data hazard website.
+There are different ways of contributing, either by hosting a workshop on how to apply Data Hazard frameworks, by applying them to your work and sharing this, or by proposing new labels to add to the existing ones. 
 
+You can reach the team via a [GitHub discussion post](https://datahazards.com/contents/contribute.html), or by [contacting them directly via email](https://datahazards.com/contents/contact.html).
 
 
