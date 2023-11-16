@@ -11,6 +11,7 @@ book:
       chapters:
       - 01-intro.md
       - 02-how_to_use.md
+      - data_hazards_cycle.md
       - 03-case_study.md
     - references.qmd
 
