@@ -16,7 +16,6 @@ There are four steps to using the Data Hazard labels:
 In addition, whether you have used the labels yet or not, you can also **{ref}`contribute<er-datahazardshowtouse-contribute>`** to the project. If you think any labels are missing or could be improved, this project is looking to evolve with collaboration.
 
 (er-datahazardshowtouse-learning)=
-
 ## **1. Learning** about the Data Hazard labels {-}
 The first step in using the Data Hazards materials is learning about the Data Hazards labels: familiarising yourself with them so that you can later {ref}`apply<er-datahazardshowtouse-apply>` them to a project.
 
@@ -34,21 +33,20 @@ Learning about the Data Hazard labels is usually part of a Data Hazards workshop
 
 3. Talking about them with other people.
 
-4. [Printing out label cards](https://datahazards.com/_downloads/b92f884790471e61048c5e0fee4dd08e/DataHazards_PrintableCards.pdf) and playing games with them.
+4. [Printing out label cards](https://datahazards.com/_downloads/b92f884790471e61048c5e0fee4dd08e/DataHazards_PrintableCards.pdf) and using them in a workshop.
 
 (er-datahazardshowtouse-apply)=
-
 ## **2. Applying** the Data Hazard labels {-}
 <!--What it means to apply the labels-->
-Applying the Data Hazard labels means deciding which labels are relevant to a project.
-There is no prescriptive way to do this, however, we suggest one way is to go through each label one by one, and iteratively think if it applies to your project, and why or why not.
+Applying the labels means deciding which labels are relevant to a project.
+There is no prescriptive way to do this. However, we suggest one way is to go through each label one at a time and decide why or why not it applies to your project.
 
 - **What projects can I apply the labels to?** 
 
 We recommend that you apply the labels to your own work unless you've been invited to give feedback on another piece of work.
 
 The labels have been applied to many different types of projects that use data or data-intensive methods.
-Some examples of projects that have used Data Hazards include:
+Some examples of projects include:
 
 - A predictive model that aims to use machine learning to predict human traits from their genetic mutations.
 
@@ -58,65 +56,50 @@ Some examples of projects that have used Data Hazards include:
 
 - A modelling project that aims to improve whole-cell models of a bacteria.
 
+Labelling these projects was part of various workshops and are not recorded or shared publicly.
+
 - **When should I apply Data Hazards in my work?** 
 
 Data Hazards labels can be applied at any stage in the research life-cycle.
-Ideally, the best time to apply the labels is close to the beginning of the research project, at the same time as you might consider your {ref}`university ethics process<>`, or {ref}`pre-registering your analysis<>` (you can also pre-register your Data Hazards analysis!). 
-However, much of our research builds on itself, so researchers have also found [workshops](https://datahazards.com/contents/materials/workshop.html) useful to reflect and plan what they can do better in follow-on projects.
+Ideally, the best time to apply the labels is close to the beginning of the research project, at the same time as you might consider your university ethics process, or {ref}`cm-dif-articles-registered-reports` (you can also pre-register your Data Hazards analysis!). 
+However, much of our research builds on itself, so researchers have also found [workshops](https://datahazards.com/contents/materials/workshop.html) useful to reflect and plan what they can do better in follow-up projects.
 
-Read the {ref}`life-cycle example<>` below, for an example of how applying, reflecting, and displaying labels can fit into a research life-cycle.
-
-(er-datahazardshowtouse-cycle)=
-
-### Example of Data Hazards in the Research life-cycle {-}
-To help visualize where and when Data Hazards can be used in your workflow, below we use an example assuming four main stages of workflow: design, data collection, data analysis and reporting.
-
-<!--could do with a life cycle image of these stages? like one of these: https://hackmd.io/@turing-commons/ByokqE_Mj-->
-### Design: {-}
-
-- Are you using data? Then doing some reflection on [identity and positionality](https://the-turing-way.netlify.app/ethical-research/self-reflection/sr-positionality.html?highlight=bias) could help you think of what Data Hazards labels you might encounter as you design your project, for example ["ranks of classifies people hazard"](https://datahazards.com/contents/hazards/ranks-classifies.html) or ["risk to privacy"](https://datahazards.com/contents/hazards/risk-to-privacy.html) could apply at this stage.
-
-- In this part of the workflow, you might want to prepare to avoid certain Data Hazards if you can, and if you can't avoid them because of where your data has come from, you may want to acknowledge this. For example, if you a [sensitive data project](https://the-turing-way.netlify.app/project-design/sdp.html), what Data Hazard labels will apply, and/or what can you do to design your project in a way that avoids certain harms?
+At the beginning of your workflow, you might want to prepare to avoid certain Data Hazards if you can, and if you can't avoid them because of where your data has come from, you may want to acknowledge this. For example, if you have a [sensitive data project](https://the-turing-way.netlify.app/project-design/sdp.html), what Data Hazard labels will apply, and/or what can you do to design your project in a way that avoids certain harms?
  
-### Data Collection and Analysis: {-}
+As you are collecting and analyzing your data, you might want to iteratively think of the potential Data Hazards that exist in the information you are actively collecting. 
+If you have a project where data has already been collected in the past, you can still apply and think of what labels may be relevant to the dataset. 
 
-- As you are collecting and analyzing your data, you might want to iteratively think of the potential Data Hazards that exist in the information you are collecting. 
- To then apply the labels as you perform the next step of the process: reporting.
-
-### Reporting: {-}
-
-- As suggested in the {ref}`er-datahazardshowtouse-precautions` section, when reporting your results, you can think of applying and reporting the Data Hazard labels that are relevant for your project; examples of how others have done this can be found [here](https://datahazards.com/contents/materials/examples.html). 
-Labeling your project with Data Hazards should also include considerations of mitigations to these risks. This would then be helpful for people who see your outputs in the future. They can be aware of potential risks as they proceed with the project, and continue to think of solutions to any issues related to the research topic.
+When you are reporting your results, it is recommended you also think of reporting mitigation strategies together with the labels; examples of how others have done this can be found [here](https://datahazards.com/contents/materials/examples.html). 
+This would then be helpful for people who see your outputs in the future. 
+They can be aware of potential risks as they proceed with the project, and continue to think of solutions to any issues related to the research topic.
 
 (er-datahazardshowtouse-precautions)=
-
 ## **3. Reflecting** on Safety Precautions {-}
 <!--What it means to reflect on the labels-->
-A key part of the Data Hazards framework is to reflect on what to do differently and what mitigations to make or suggest for future work. 
-
-A good place to look for content on the topic of reflection is in this chapter of the Turing Way: {ref}`er-self-reflection`, where discussion on identity and positionality, power and privilege, and self reflection prompts are provided. 
+This chapter is a good place to read about {ref}`er-self-reflection`, where discussion on identity and positionality, power and privilege, and self reflection prompts are provided. 
 Reflecting on where you stand in your work means you are more likely to see and acknowledge mitigation strategies which can apply to data hazards of your work. 
 Likewise, reflecting on the history of where your work has come from may shed light as to how and why some data hazards apply to your work and promote thinking on how to alleviate these later. 
 
-Thinking about mitigations means that you suggest ways to prevent risks associated with your work, and if no prevention is possible at present, how to avoid it in the future. 
+Are you using data? Then doing some reflection as suggested above could help you think of what Data Hazards labels you might encounter throughout your project, for example ["ranks of classifies people hazard"](https://datahazards.com/contents/hazards/ranks-classifies.html) or ["risk to privacy"](https://datahazards.com/contents/hazards/risk-to-privacy.html).
+
+A key part of the Data Hazards framework is to reflect on what to do differently.
+Thinking about mitigation strategies means that you suggest ways to prevent risks associated with your work, and if no prevention is possible at present, how to avoid it in the future. 
 The point of this is not to think of *all* the possible scenarios on how your work carries or can carry risks,and of *all* possible mitigation measures; but to reflect, acknowledge and promote an awareness about ethical implications of the work that we do.  
 
 (er-datahazardshowtouse-display)=
-
 ## **4. Displaying** the Data Hazard labels {-}
 
-In order to show case your reflections and how you have applied the labels, displaying them can help people visualise their importance in your work.
+In order to showcase your reflections and how you have applied the labels, displaying them can help people visualise their importance in your work.
 
 The Data Hazards website has some suggestions and templates on [how to present the labels](https://datahazards.com/contents/materials/presenting.html
 ). 
 
 (er-datahazardshowtouse-contribute)=
-
 ## **Contributing** to Data Hazards materials {-}
 
 Additionally to the steps stated above, the Data Hazard labels are a collaborative effort to create a shared vocabulary that evolves with time. 
-If you throughout your process of reflection and applying the labels you find that there are labels missing, you can suggest a new one yourself.
-Guidelines on how to contribute are laid out in the [contribution section] of the data hazard website.
+If you find that there are labels missing, you can suggest a new one yourself.
+Guidelines on how to contribute are laid out in the [contribution section](https://datahazards.com/contents/contribute.html) of the Data Hazard website.
 There are different ways of contributing, either by hosting a workshop on how to apply Data Hazard frameworks, by applying them to your work and sharing this, or by proposing new labels to add to the existing ones. 
 
 You can reach the team via a [GitHub discussion post](https://datahazards.com/contents/contribute.html), or by [contacting them directly via email](https://datahazards.com/contents/contact.html).
