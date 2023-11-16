@@ -43,8 +43,12 @@ This hazard is appropriate where methodologies are energy-hungry, data-hungry (r
 
 ---
 
-### Similarities and differences to chemical hazard labels
-<!--The Data Hazards labels look like chemical hazard labels on purpose...-->
+### But Why Hazard Labels?
+The Data Hazards framework takes inspiration from the visual nature of chemical hazard symbols, communicating to users the potential outcomes and risks of a project. 
+Similarly, to chemical hazards, labelling something as hazardous does not change or reduce its inherent risk.
+However, the visual display of the risk allows the user to make choices based on this knowledge. 
+The user can choose to take the necessary precautions to keep themselves, other and their environment safe. 
+This also applies to the Data Hazard labels, where if we can identify the risks, we can act accordingly and mitigate possible risks.
 
 
 ### Where did they come from?
@@ -56,29 +60,34 @@ Through collecting suggestions [on GitHub](), and at conferences and Data Hazard
 The Data Hazard labels are a living project and will continue to change as we gather more suggestions - for this reason they are versioned using semantic versioning.
 At the time of writing, in `v1.0`, there are 11 Data Hazard labels: you can [explore the Data Hazard labels yourself](https://datahazards.com/labels) on the Data Hazards website.
 
-<<<<<<< HEAD
-=======
-## Application example into Research life-cycle
-To help visualize where and when Data Hazards can be used in your workflow, below we use an example assuming four main stages of workflow: design, data collection, data analysis and reporting.
-
-
-#### Design:
- - Are you using data? Then doing some reflection on [identity and positionality](https://the-turing-way.netlify.app/ethical-research/self-reflection/sr-positionality.html?highlight=bias) could help you think of what Data Hazards labels you might encounter as you design your project, for example ["ranks of classifies people hazard"](https://datahazards.com/contents/hazards/ranks-classifies.html) or ["risk to privacy"](https://datahazards.com/contents/hazards/risk-to-privacy.html) could apply at this stage.
- - In this part of the workflow, you might want to prepare to avoid certain Data Hazards if you can, and if you can't avoid them because of where your data has come from, you may want to acknowledge this. For example, if you a [sensitive data project](https://the-turing-way.netlify.app/project-design/sdp.html), what Data Hazard labels will apply, and/or what can you do to design your project in a way that avoids certain harms?
- 
-#### Data Collection and Analysis:
- - As you are collecting and analyzing your data, you might want to iteratively think of the potential Data Hazards that exist in the information you are collecting. To then apply the labels as you perform the next step of the process: reporting.
-
-#### Reporting:
- - When reporting your results, you can think of applying and reporting the Data Hazard labels that are relevant for your project; examples of how others have done this can be found here [link to self reflection and case studie(s)]. Labeling your project with Data Hazards should also include considerations of mitigations to these risks. This would then be helpful for people who see your outputs in the future. They can be aware of potential risks as they proceed with the project, and continue to think of solutions to any issues related to the research topic.
-
 ## Ethical Frameworks 
->>>>>>> cw_work_03
+Ethical frameworks are prespectives useful for reasoning what course of action may provide the most moral outcome [cite].
+They can provide a toolkit to help researchers, stakeholders, developers, policy-makers and decision-makers understand what is required and should be considered when engaging in responsible research and innovation. 
+Philosphically and socially, ethical frameworks have been considered broadly outside of data science and AI settings and projects.
+
+As not everyone may agree on a shared meaning of research ethics, there are many ethical frameworks available. Individuals may adopt an interpret ethical meanings based on unqiue priorities, personal needs, professional requirements or societal and cultural roles. 
+
+Some examples of ethical frameworks that already exist in scientific domains include: 
+
+1. Citizen science and public and patient participation in research 
+2. Ethical Framework for Presenting Scientific Results to Policy-Makers
+3. Five Dimensions of Research Ethics: A Stakeholder Framework for Creating a Climate of Research Integrity
+4. ESRC Framework for Research Ethics 
+5. Ethics of AI in Education: Towards a Community-Wide Framework
+
+The Data Hazards framework has some similarities to the example frameworks listed above. 
+However, the Data Hazards provides an intuitive and visual approach to evaluating and reflecting on risks associated with a research project. 
+It allows the dangers to be explicity stated alongside some mitigation strategies researchers can use to tackle these risks. 
+It provides us with a toolkit to facilitate discussions, reflection and decision-making for current and future stakeholders.   
+Crucially, it also considers a more holistic view of ethics, not focusing on a specific domain or risk, or separating human-centered ethics from non-human animal or enivronmental frameworks. 
+This toolkit allows for reflection across a spectrum of risks and ethical considarions. 
+The Data Hazards framework also provides an open-source approach to an ethical framework, where flexibility and creativity to adapt and develop the framework is strongly encouraged! 
 
 
-<!--- remove glossary if there is not enough time to complete---->
-## Glossary
-
-- risk:
-- hazard:
-- danger:
+## Key Terms
+Risk and hazard are terms sometimes used intercheangeably, but sometimes they can have nuanced specific meanings. 
+Certain fields like environmental sciences, engineering or medicine require a clear and consistent use of these terminologies.
+Generally, "hazard" refers to the inherent qualities or characteristics of something that make it potentially harmful. 
+It's more focused on the nature of the threat rather than the likelihood of it occurring. 
+Whereas "risk" is a term that refers to the likelihood and impact of something happening. 
+It's often used in decision-making contexts to evaluate the potential consequences of actions.
