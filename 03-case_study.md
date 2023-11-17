@@ -1,9 +1,9 @@
 (er-datahazardscasestudy)=
-# Case Study: DERR Symposium and Data Hazards Workshop 
+# Case Study: DER Symposium and Data Hazards Workshop 
 
 (er-datahazardscasestudy-overview)=
 ## Overview 
-The Data Ethics and Reproducible Research (DERR) Symposium was a one-day event held at the Alan Turing Institute 10th March 2023. 
+The Data Ethics and Reproducibility (DER) Symposium was a one-day event held at the Alan Turing Institute 10th March 2023. 
 In total, we had eighteen attendees in-person and eighteen attendees online, not including volunteers and hosts. 
 This symposium aimed to showcase implementations of reproducibility and ethics for research, with a focus on Data Hazards.
 The symposium structure included a variety of speakers, an interactive workshop and networking oppurtunities. 
@@ -18,7 +18,7 @@ This allowed attendees to appreciate that ethics is complex, situational and imp
 For more detailed information and checklists, please see the Turing Way page for {ref}`Organising a Conference<cl-organising-conferences>`.
 
 (er-datahazardscasestudy-goals)=
-### DERR Symposium Goals
+### DER Symposium Goals
 
 **Primary Goal:** to provide an open, inclusive and accessible space for attendees to learn from one another and discuss first-hand experiences applying ethics and reproducibility to their work. 
 we hope to discuss the successes and challenges we might face, and importantly how to consider ethics as more than a tick-box exercise in a research project.
@@ -104,7 +104,7 @@ This is what a template email could look like:
 
 (er-datahazardscasestudy-organising-collaboration)=
 ### Collaboration: 
-The DERR symposium had two primary organisers, however it would not have been possible without the help of different collaborators. 
+The DER symposium had two primary organisers, however it would not have been possible without the help of different collaborators. 
 Here we discuss the steps we took to reach out to volunteers, symposium collaborators and speakers to help the event run smoothly. 
 
 **Internal Teams**
