@@ -1,9 +1,15 @@
 (er-datahazardscasestudy)=
-# Case Study: DERR Symposium and Data Hazards Workshop 
+# Case Study: Data Ethics and Reproducibility Symposium and Data Hazards Workshop 
+We (the organisers: Ceilidh Welsh and Susana Roman Garcia) wanted to create an event that revolved around the Data Hazards framework and focused on showcasing how different people are thinking about embedding ethics into the work that they do. 
+As PhD students, we both felt a divide between our interest in creating more ethical and reproducible work and the "actual research" we ought to do. 
+This divide and passion for working more ethically brought us together, and we sought out to see how people are embedding ethics into their work, and showcase this during our one day symposium.
+We had talks from PhD students who have been working make their work reproducible, how university teachers might think of implementing Data Hazards into their lectures, and more (this is available in this {ref}`er-datahazardscasestudy-postevent-githubrepo`). 
+It was a challenging experience to host an event from scratch, but it was worth it and now we have this chapter to share with you! 
+Which we hope can give you some insight into our experience and tips we have for people in the future. 
 
 (er-datahazardscasestudy-overview)=
 ## Overview 
-The Data Ethics and Reproducible Research (DERR) Symposium was a one-day event held at the Alan Turing Institute 10th March 2023. 
+The Data Ethics and Reproducibility (DER) Symposium was a one-day event held at the Alan Turing Institute 10th March 2023. 
 In total, we had eighteen attendees in-person and eighteen attendees online, not including volunteers and hosts. 
 This symposium aimed to showcase implementations of reproducibility and ethics for research, with a focus on Data Hazards.
 The symposium structure included a variety of speakers, an interactive workshop and networking oppurtunities. 
@@ -18,7 +24,7 @@ This allowed attendees to appreciate that ethics is complex, situational and imp
 For more detailed information and checklists, please see the Turing Way page for {ref}`Organising a Conference<cl-organising-conferences>`.
 
 (er-datahazardscasestudy-goals)=
-### DERR Symposium Goals
+### DER Symposium Goals
 
 **Primary Goal:** to provide an open, inclusive and accessible space for attendees to learn from one another and discuss first-hand experiences applying ethics and reproducibility to their work. 
 we hope to discuss the successes and challenges we might face, and importantly how to consider ethics as more than a tick-box exercise in a research project.
@@ -45,7 +51,9 @@ Here we discuss the logistics for organising an event, from setting-up and promo
 ### Creating an Agenda:
 The first step was to put together some initial ideas for the agenda.
 We worked together using google docs. 
-Please find our finalised agenda [here](https://docs.google.com/document/d/13buQgzAbTTSWVtONXC3cnjegWapJ0CBkL7TBkqNNRqU/edit).
+We used google docs because it allowed us to easily share the documents with other people, and it was easy to access.
+We made sure that no private or sensitive data was shared in the google docs. 
+Our finalised agenda is [here](https://docs.google.com/document/d/13buQgzAbTTSWVtONXC3cnjegWapJ0CBkL7TBkqNNRqU/edit).
 What did this process look like for us?
  - brainstorming themed talks,
  - deciding on keynote speakers, 
@@ -57,23 +65,34 @@ What did this process look like for us?
  
 *To make the event more accessible, it was important for us to **make sure there were enough 'bio breaks'** to allow people to stretch their bodies, use the toilet and take a breather.
 
+**Speakers**
+A big part of organising the agenda revolved around choosing speakers and timings. 
+We thought of different people who we would ideally like to give talks and also had an open call for anyone who was interested in speaking at the event.
+When looking for speakers we:
+- reached out to directly to key-note speakers whose research area or field considered data ethics and reproducibility.
+- invited speakers from both inside and outside our organisation to include a variety of experiences. 
+- asked for abstracts and titles, providing potential speakers with and estimated length of talk (including time for questions) and session they would present in.
+
+
 (er-datahazardscasestudy-organising-advertising)=
 ### Advertising the Event
 
 **Choosing a date and gauging interest:** 
-We reached out to our community *before beginning to organise* the symposium to gauge interest and spread the word. 
+Before even asking for funding, we wanted to know if there was enough interest to organise a symposium. So we reached out to our community *before beginning to organise* the symposium to gauge interest and spread the word. 
 This allowed us to know what other events were going on in our organisation and research field so that we could avoid clashes or busy times of the year.
 
 **Eventbrite:** 
 After finding an available date for our interested participants, we chose to advertise our event on Eventbrite. 
+At the time of running our event, we could host it for free for 30 participants.
+However, as of now (November 2023), Eventbrite only allows to host your event for free with up to 25 participants, then it charges you. 
+Some alternatives you may use could be [Humanitix](https://humanitix.com/us/pricing), [Lu.ma](https://lu.ma/) or [eventsforce](https://www.cvent.com/uk).
 Because we were running a hybrid event, we created two event pages (one [in-person](https://www.eventbrite.co.uk/e/in-person-data-hazards-ethics-and-reproducibility-one-day-symposium-tickets-516803953537) and one [online-only](https://www.eventbrite.co.uk/e/online-data-hazards-ethics-and-reproducibility-one-day-symposium-tickets-517490858087?keep_tld=1)). 
 Eventbrite worked well for us because:
 - it could be accessed by everyone, not just those in our organisation. 
 - we could use it to gather participant information (clearly explaining why we were asking for the sensitive information and how the data would be handled), including accessibility information participants wanted to declare and dietary requirements.
 
-(er-datahazardscasestudy-organising-communication)=
-### Communications 
-We emailed the registered participants prior to the event in order to:
+**Communications**
+To make sure we kept attendees engaged and up to date, we emailed them prior to the event to:
 - encourage those who could no longer attend to cancel their reserved slot so that someone else could attend in their place. 
 - provide a small nudge and reminder that the event was happening.
 - provide participants a Code of Conduct and agenda in advance.
@@ -104,7 +123,7 @@ This is what a template email could look like:
 
 (er-datahazardscasestudy-organising-collaboration)=
 ### Collaboration: 
-The DERR symposium had two primary organisers, however it would not have been possible without the help of different collaborators. 
+The DER symposium had two primary organisers, however it would not have been possible without the help of different collaborators. 
 Here we discuss the steps we took to reach out to volunteers, symposium collaborators and speakers to help the event run smoothly. 
 
 **Internal Teams**
@@ -127,14 +146,6 @@ For clear communication with volunteers, we:
 - [**created a final volunteer's task form**](), so that all volunteers had been assigned tasks before the event began 
 
 
-**Speakers**
-As part of the symposium, we had to reach out to speakers for the event:
-
-- we reached out to directly to key-note speakers whose research area or field considered data ethics and reproducibility.
-- we invited speakers from both inside and outside our organisation to include a variety of experiences. 
-- we asked for abstracts and titles, providing potential speakers with and estimated length of talk (including time for questions) and session they would present in.
-
-
 (er-datahazardscasestudy-organising-catering)=
 ### Catering 
 For our event we choose a local, entirely vegan caterer, to align with the core values of the event. 
@@ -147,19 +158,12 @@ To ensure successful ordering and delivery of the catering on the day we:
 
 Tip: make sure terms and conditions are read and timing requirements from different parties involved are clear from the beginning. It might be that the caterer you are ordering from requires a purchase order to be completed a certain time in order to complete the order action.
 
-(er-datahazardscasestudy-organising-accessibility)=
-### Accessibility
-
-**Code of Conduct**
-We put together a code of conduct for the event that reflected our values and the values of the community we aimed to create during the symposium. It also summarised the expectations of participants joining the symposium and laid out reporting guidlines and contact points for if the code of conduct was breached during the event.
-
-Please find our Code of Conduct [here](https://hackmd.io/@7D_si7-qQwKdepUrj7_AzA/DER_CoC).
 
 (er-datahazardscasestudy-hosting)=
 ## Hosting the Event 
-There is already a chapter on [Organising Conferences](https://the-turing-way.netlify.app/collaboration/organising-conference.html?highlight=accessibility) which includes an in-depth dive into requirements for accessibility. 
-Likewise there is also a section for [Communicating Accessibly](https://the-turing-way.netlify.app/communication/comms-overview/comms-overview-accessibly). 
-As well as on [Organising Hybrid meetings](https://the-turing-way.netlify.app/collaboration/hybrid-collab/hybrid-collab-guidelines.html?highlight=hybrid). 
+There is already a chapter on {ref}`cl-organising-conferences` which includes an in-depth dive into requirements for accessibility. 
+Likewise there is also a section for {ref}`cm-comms-overview-accessibly`.
+As well as on {ref}`cl-hybrid-collab-guidelines`. 
 
 From our experience, here are some extra tips on the day of the event.
 
@@ -173,14 +177,24 @@ From our experience, here are some extra tips on the day of the event.
 (er-datahazardscasestudy-hosting-hybridevent)=
 ### Hybrid Event Tips
 We chose to host the Symposium in a hybrid format as this would allow attendance for those interested in the topic, and speakers who would be unable to attend in-person.
+This aspect of the event was definitely challenging. However thanks to the good communication with volunteer and preparation of the room prior to the event, it ran successfully without hiccups.
 Some tips from our own experience: 
 - have session chairs, which will introduce speakers and make sure people keep to agenda timings.
+- make sure session chairs are aware of how the tech in the room works, or that there is at least one person in the room is comfortable with the tech.
 - set a non-disruptive 1min warning. For example, have a 1min sign which you can raise, or type into the chat, when the time approaches.
 - keep questions to the end of the talks to avoid disruptions and talks becoming longer.
 
 (er-datahazardscasestudy-hosting-accessibility)=
 ### Accessibility
-Here, we highlight some points to ensure that the hybrid-format and the event were accessible:
+In order to emphasize accessibility, below we provide some insight into what was important for us during the event.
+
+**Code of Conduct**
+We put together a code of conduct for the event that reflected our values and the values of the community we aimed to create during the symposium. It also summarised the expectations of participants joining the symposium and laid out reporting guidlines and contact points for if the code of conduct was breached during the event.
+
+Please find our Code of Conduct [here](https://hackmd.io/@7D_si7-qQwKdepUrj7_AzA/DER_CoC).
+
+Additionally, overall, below we highlight some points that we actioned to make ensure that the hybrid-format and the event were accessible:
+
 - collected accessibility requirements at the time of advertising, to help with planning.
 - used [Otter.ai](https://otter.ai/), a speech to text transcription application using artificial intelligence and machine learning. 
   It shows captions for live speakers, and generates written transcriptions. 
@@ -199,7 +213,7 @@ The Data Hazards workshop was a key part of the symposium.
 Participants engaged with a real-life research case study, presented by the researcher themselves, to evaluate the Data Hazards labels and which ones may apply. 
 There was collaboration between attendees, volunteers and the researcher to discuss the ethical context of the project.
 We split the attendees into smaller group to faciliate discussion and provide a series of prompt questions.  
-This GitHub [repository](https://github.com/Susana465/Data_Hazards_workshops) provides details of the workshop run on the day. 
+Details of the workshop run on the day are available in the {ref}`er-datahazardscasestudy-postevent-githubrepo`. 
 
 (er-datahazardscasestudy-postevent)=
 ## Post Event 
