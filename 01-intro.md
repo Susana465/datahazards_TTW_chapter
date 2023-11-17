@@ -23,8 +23,15 @@ Each label has, as described in the main website:
 - **Safety Precautions** things that we would want to see done before the research is deployed.
 
 ### Example label: high environmental cost
+```{figure} ../../figures/data-hazard-environmental-cost.*
+---
+height: 500px
+name: data-hazard-environmental-cost
+alt: A red diamond with an image of the earth at the centre. The earth is surrounded by a flame. 
 
-[IMAGE GOES HERE]
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807) [change me].
+```
 
 #### Description
 This hazard is appropriate where methodologies are energy-hungry, data-hungry (requiring more and more computation), or require special hardware that require rare materials. Alternatively, this could also apply to research which outputs high amounts of waste.
@@ -69,11 +76,11 @@ As not everyone may agree on a shared meaning of research ethics, there are many
 
 Some examples of ethical frameworks that already exist in scientific domains include: 
 
-1. Citizen science and public and patient participation in research 
-2. Ethical Framework for Presenting Scientific Results to Policy-Makers
-3. Five Dimensions of Research Ethics: A Stakeholder Framework for Creating a Climate of Research Integrity
-4. ESRC Framework for Research Ethics 
-5. Ethics of AI in Education: Towards a Community-Wide Framework
+1. Citizen Science and Public and Patient Participation in Research {cite:ps}`Groot2022`
+2. Ethical Framework for Presenting Scientific Results to Policy-Makers{cite:ps}`Schroeder2022`
+3. Five Dimensions of Research Ethics: A Stakeholder Framework for Creating a Climate of Research Integrity {cite:ps}`Dubois2018`
+4. ESRC Framework for Research Ethics {cite:ps}`esrc2010Framework`
+5. Ethics of AI in Education: Towards a Community-Wide Framework {cite:ps}`Holmes2022`
 
 The Data Hazards framework has some similarities to the example frameworks listed above. 
 However, the Data Hazards provides an intuitive and visual approach to evaluating and reflecting on risks associated with a research project. 
