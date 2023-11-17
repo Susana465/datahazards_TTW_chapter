@@ -85,7 +85,7 @@ This allowed us to know what other events were going on in our organisation and 
 After finding an available date for our interested participants, we chose to advertise our event on Eventbrite. 
 At the time of running our event, we could host it for free for 30 participants.
 However, as of now (November 2023), Eventbrite only allows to host your event for free with up to 25 participants, then it charges you. 
-Some alternatives you may use could be [Humanitix](https://humanitix.com/us/pricing), [Lu.ma](https://lu.ma/)
+Some alternatives you may use could be [Humanitix](https://humanitix.com/us/pricing), [Lu.ma](https://lu.ma/) or [eventsforce](https://www.cvent.com/uk).
 Because we were running a hybrid event, we created two event pages (one [in-person](https://www.eventbrite.co.uk/e/in-person-data-hazards-ethics-and-reproducibility-one-day-symposium-tickets-516803953537) and one [online-only](https://www.eventbrite.co.uk/e/online-data-hazards-ethics-and-reproducibility-one-day-symposium-tickets-517490858087?keep_tld=1)). 
 Eventbrite worked well for us because:
 - it could be accessed by everyone, not just those in our organisation. 
